@@ -66,7 +66,7 @@ fecha_venta date NOT NULL,
 canal varchar(20)
 );
 
---INSERCION DE DATOS A LA TABLA TERRITORIOS)
+--INSERCION DE DATOS A LA TABLA TERRITORIOS--
 
 INSERT INTO Territorios 
 (id_territorios, ciudad, pais, region) 
