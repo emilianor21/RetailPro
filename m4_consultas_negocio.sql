@@ -24,6 +24,8 @@ VALUES
 
 --Consulta 1 — Resumen ejecutivo mensual--
 
+--No utilizo la función EXTRACT() ya que SQL Server no soporta la función--
+
 SELECT
 
 MONTH(fecha_venta) AS mes,
